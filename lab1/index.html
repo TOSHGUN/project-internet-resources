@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <form action="indexB.php" method="POST" name="form1">
+        <fieldset id="fs1"  style="display:block; width: fit-content;" >
+            <legend>Вопросы</legend>
+            <p>
+                <label for="n1">1. До скольки победных раундов идет матч в соревновательном режиме игры Valorant?</label>
+                <input type="text" value="" name="n1" id="n1" size="2" >
+            </p>
+            <p id="q2">
+                <label for="n2">2. Какие агенты доступны в игре Valorant?</label>
+                <br>
+                <input type="checkbox" name="n2-1" ><label>Neon</label>
+                <input type="checkbox" name="n2-2" ><label>Cypher</label>
+                <br>
+                <input type="checkbox" name="n2-3" ><label>Ganyu</label>
+                <input type="checkbox" name="n2-4" ><label>Reyna</label>
+            </p>
+            <p id="q3">
+                <label for="n3">3. Какие карты существуют в Valorant?</label>
+                <br>
+                <input type="checkbox" name="n3-1"><label>Ascent</label>
+                <input type="checkbox" name="n3-2" ><label>Breeze</label>
+                <br>
+                <input type="checkbox" name="n3-3" ><label>Mirage</label>
+                <input type="checkbox" name="n3-4" ><label>Inazuma</label>
+            </p>
+            <p id="q4">
+                <label for="n4">4. Какая последняя добавленная карта в Valorant?</label>
+                <br>
+                <input type="radio" name="n4" value="n4-1" ><label>Ascent</label>
+                <input type="radio" name="n4" value="n4-2" ><label>Sunset</label>
+                <br>
+                <input type="radio" name="n4" value="n4-3" ><label>Bind</label>
+                <input type="radio" name="n4" value="n4-4" ><label>Icebox</label>
+            </p>
+            <p id="q5">
+                <label for="n5">5. Какое самое дорогое оружие в Valorant?</label>
+                <br>
+                <input type="radio" name="n5" value="n5-1" ><label>Odin</label>
+                <input type="radio" name="n5" value="n5-2" ><label>Vandal</label>
+                <br>
+                <input type="radio" name="n5" value="n5-3" ><label>Operator</label>
+                <input type="radio" name="n5" value="n5-4" ><label>Guardian</label>
+            </p>
+            <p id="q6">
+                
+                <img id="n6" src="./gun.jpg" alt="" style="height: 100px;">
+                <br>
+                <label for="n6">6. Что изображено на картинке?</label>
+                <br>
+                <input type="radio" name="n6" value="n6-1"><label>AWP</label>
+                <input type="radio" name="n6" value="n6-2"><label>Guardian</label>
+                <br>
+                <input type="radio" name="n6" value="n6-3"><label>Operator</label>
+                <input type="radio" name="n6" value="n6-4"><label>Sheriff</label>
+            </p>
+            <p id="q7">
+                <label for="n7">7. Напишите название предмета, который устанавливает нападающая команда:</label>
+                <input type="text" value="" name="n7" id="n7" size="5">
+            </p>
+            <p id="q8">
+                <label for="n8">8. Роли агентов</label>
+                <br>
+                <input type="checkbox" name="n8-1"><label>Специалист</label>
+                <input type="checkbox" name="n8-2"><label>Дуэлянт</label>
+                <br>
+                <input type="checkbox" name="n8-3"><label>Снайпер</label>
+                <input type="checkbox" name="n8-4"><label>Страж</label>
+                <br>
+                <input type="checkbox" name="n8-5"><label>Защитник</label>
+                <input type="checkbox" name="n8-6"><label>Зачинщик</label>
+            </p>
+            <input type="submit" id="res" value="Проверить" style="background-color: #ff6d6d;">
+            
+        </fieldset>
+
+        <!-- <fieldset id="fs2" >
+            <legend>Результат</legend>
+            <p style = "font: 12px Arial;">Вы дали <input id="r1" value="" size="2"> правильных ответа/ов</p><br> 
+            <textarea id="vv" rows="2" cols="20" contenteditable="false"></textarea>
+         </fieldset> -->
+    </form>
+</body>
+</html>
